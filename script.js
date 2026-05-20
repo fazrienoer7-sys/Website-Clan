@@ -1,4 +1,4 @@
-/* NAVBAR EFFECT */
+/* NAVBAR */
 
 window.addEventListener("scroll", function(){
 
@@ -142,7 +142,7 @@ document.getElementById("bg-music");
 const musicBtn =
 document.getElementById("music-toggle");
 
-music.volume = 0.20;
+music.volume = 0.35;
 
 musicBtn.addEventListener("click", () => {
 
@@ -199,37 +199,6 @@ window.addEventListener(
 );
 
 revealSections();
-
-/* PARTNERSHIP HOVER EFFECT */
-
-const partnerCards =
-document.querySelectorAll(
-  ".partner-card"
-);
-
-partnerCards.forEach(card => {
-
-  card.addEventListener(
-    "mouseenter",
-    () => {
-
-      card.style.transform =
-      "translateY(-8px) scale(1.03)";
-
-    }
-  );
-
-  card.addEventListener(
-    "mouseleave",
-    () => {
-
-      card.style.transform =
-      "translateY(0px) scale(1)";
-
-    }
-  );
-
-});
 
 console.log(
   "Unity~LegiOn` Website Ready!"
